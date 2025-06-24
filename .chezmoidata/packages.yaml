@@ -1,0 +1,35 @@
+packages:
+  darwin:
+    taps:
+      - 'cloudflare/cloudflare'
+      - 'ddev/ddev'
+      - 'hashicorp/tap'
+    brews:
+      - 'chezmoi'
+      - 'fish'
+      - 'fnm'
+      - 'git'
+      - 'go'
+      - 'mas'
+      - 'pnpm'
+      - 'rust'
+      - 'starship'
+      - 'tofuenv'
+      - 'unzip'
+      - 'watchman'
+      - 'hashicorp/tap/terraform'
+      - 'ddev/ddev/ddev'
+    casks:
+      - '1password-cli@beta'
+      - '1password@nightly'
+      - 'arc'
+      - 'font-victor-mono-nerd-font'
+      - 'ghostty'
+      - 'miro'
+      - 'visual-studio-code'
+      - 'slack'
+      - 'discord'
+    mas:
+      - '"Keynote", id: 409183694'
+      - '"Numbers", id: 409203825'
+      - '"Pages", id: 409201541'

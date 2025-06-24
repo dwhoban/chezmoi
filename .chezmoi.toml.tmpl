@@ -1,9 +1,7 @@
-color = true
-progress = true
+[ data ]
+{{ $workDevice := promptBoolOnce . "workDevice" "Is this a Work Device" }}
+workDevice = {{ $workDevice }}
 
 [edit]
-apply = true
 command = "code"
 args = "--wait"
-watch = true
-hardlink = true
